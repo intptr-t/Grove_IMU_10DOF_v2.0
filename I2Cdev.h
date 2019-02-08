@@ -77,6 +77,11 @@ THE SOFTWARE.
         #include <Wire.h>
     #endif
 #else
+    #if __has_include("ArduinoWrapper.h")
+        #include "ArduinoWrapper.h"
+    #else
+        #include "Grove_IMU_10DOF_ArduinoWrapper.h"
+    #endif
     #include "ArduinoWrapper.h"
 #endif
 

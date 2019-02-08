@@ -1,5 +1,21 @@
 # IMU_10DOF_V2
 
+## 概要
+
+このフォークされた本ライブラリは、`ArduinoWrapper.h`が存在しないライブラリ向けに改造したライブラリです。
+以下のボードライブラリで動作することを確認しています。
+- https://github.com/SeeedJP/SeeedJP_STM32F4/commit/507276357a5d33657e23407976ab2d6e410b90d8
+
+## Abstract
+
+This forked Library is remodeled for Board library which has no `ArduinoWrapper.h`.
+Confirmed that it works with the following board library.
+- https://github.com/SeeedJP/SeeedJP_STM32F4/commit/507276357a5d33657e23407976ab2d6e410b90d8
+
+----
+
+## Original ReadME
+
 This library is for Grove - IMU 10DOF V2 and Xadow - IMU 10DOF modules. All the mentioned modules are combination of MPU-9250 and BMP280. So this library is the combination of:
 
 * Library for MPU9250 - thanks to Jeff Rowberg <jeff@rowberg.net>, the MIT license
