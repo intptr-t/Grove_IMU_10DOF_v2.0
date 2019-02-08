@@ -1,4 +1,5 @@
 #include "BMP280.h"
+#include <math.h>
 
 bool BMP280::init(void)
 {
